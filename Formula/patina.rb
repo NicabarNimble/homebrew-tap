@@ -1,19 +1,19 @@
 class Patina < Formula
   desc "Patina AI + Mother CLI"
   homepage "https://github.com/NicabarNimble/patina"
-  version "0.63.0"
+  version "0.64.0"
   license "MIT"
 
   depends_on macos: :sonoma
 
   on_macos do
     url "https://github.com/NicabarNimble/patina/releases/download/v#{version}/patina-aarch64-apple-darwin.tar.gz"
-    sha256 "602f4c5b1c350af5d1430cec6de85e5bf72c78faafd86b0d3b1c0866b8749fda"
+    sha256 "8a5b1babc9d9defdd281a6b4d00a9bf162c6897309e1d3ed95f84d4ab177a5ce"
   end
 
   on_linux do
     url "https://github.com/NicabarNimble/patina/releases/download/v#{version}/patina-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "81eadc0ecbf50e1bb7a48afaf83542d620ff7d47890dd754f28594dbcb75eb54"
+    sha256 "9c1770fb292c1e1b3c4edd196f410b018561ee04b949615137ec0f21938e5c0c"
   end
 
   def install
